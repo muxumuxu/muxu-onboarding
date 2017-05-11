@@ -14,6 +14,7 @@ Fire up your favorite terminal and install:
 	- `rbenv install 2.4.0`
 - [bundler](http://bundler.io)
 - [tmate](https://tmate.io/)
+- [jargon](https://github.com/muxumuxu/jargon)
 
 Configure your SSH Keys with GitHub:
 
