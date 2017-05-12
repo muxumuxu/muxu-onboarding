@@ -41,14 +41,4 @@ gem install rails # Install the latest rails version
 rails new my_app -m https://github.com/muxumuxu/slim-sass-rails-template/blob/master/template.rb
 ```
 
-This rails template is configured with:
-
-  - [Docker](https://www.docker.com/)
-  - [Sass](http://sass-lang.com/)
-  - [Slim](http://slim-lang.com/)
-  - [PostgreSQL](https://www.postgresql.org/)
-  - [Rollbar](https://rollbar.com/)
-  - [Heroku](https://heroku.com/)
-  - and other cool gems
-
 With those tools you should be able to develop anything ;)
