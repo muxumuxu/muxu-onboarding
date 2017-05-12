@@ -34,19 +34,21 @@ This middleman template is configured with [Sass](http://sass-lang.com/) and [Sl
 
 ## Use [Rails](http://rubyonrails.org/) for complex websites
 
+First you need [Docker](https://docs.docker.com/docker-for-mac/install/) to be installed and running.
+
 ```
-gem install rails
+gem install rails # Install the latest rails version
 rails new my_app -m https://github.com/muxumuxu/slim-sass-rails-template/blob/master/template.rb
 ```
 
-This middleman template is configured with:
+This rails template is configured with:
 
+  - [Docker](https://www.docker.com/)
   - [Sass](http://sass-lang.com/)
   - [Slim](http://slim-lang.com/)
-  - [Docker](https://www.docker.com/)
+  - [PostgreSQL](https://www.postgresql.org/)
   - [Rollbar](https://rollbar.com/)
   - [Heroku](https://heroku.com/)
-  - [PostgreSQL](https://www.postgresql.org/)
   - and other cool gems
 
 With those tools you should be able to develop anything ;)
