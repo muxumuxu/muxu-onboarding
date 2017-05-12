@@ -23,7 +23,7 @@ Configure your SSH Keys with GitHub:
   - [Setup](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
   - [Configure](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 
-## Use [Middleman](https://github.com/muxumuxu/knowledge_base/blob/master/middleman.md) for static websites
+## Use [Middleman](https://middlemanapp.com/) for static websites
 
 ```
 gem install middleman
