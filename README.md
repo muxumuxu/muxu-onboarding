@@ -38,7 +38,7 @@ First you need [Docker](https://docs.docker.com/docker-for-mac/install/) to be i
 
 ```
 gem install rails # Install the latest rails version
-rails new my_app -m https://raw.githubusercontent.com/muxumuxu/slim-sass-rails-template/master/template.rb
+rails new my_app -m https://raw.githubusercontent.com/muxumuxu/muxu-rails-template/master/template.rb
 ```
 
 With those tools you should be able to develop anything ;)
