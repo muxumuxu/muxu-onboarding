@@ -23,7 +23,7 @@ Configure your SSH Keys with GitHub:
   - [Setup](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
   - [Configure](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 
-## Use [Middleman](https://github.com/muxumuxu/knowledge_base/blob/master/middleman.md) for static websites
+## Use [Middleman](https://middlemanapp.com/) for static websites
 
 ```
 gem install middleman
@@ -38,17 +38,7 @@ First you need [Docker](https://docs.docker.com/docker-for-mac/install/) to be i
 
 ```
 gem install rails # Install the latest rails version
-rails new my_app -m https://github.com/muxumuxu/muxu-rails-template/blob/master/template.rb
+rails new my_app -m https://raw.githubusercontent.com/muxumuxu/muxu-rails-template/master/template.rb
 ```
-
-This rails template is configured with:
-
-  - [Docker](https://www.docker.com/)
-  - [Sass](http://sass-lang.com/)
-  - [Slim](http://slim-lang.com/)
-  - [PostgreSQL](https://www.postgresql.org/)
-  - [Rollbar](https://rollbar.com/)
-  - [Heroku](https://heroku.com/)
-  - and other cool gems
 
 With those tools you should be able to develop anything ;)
