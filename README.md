@@ -17,11 +17,17 @@ Next, fire up your favorite terminal and install:
   - [bundler](http://bundler.io)
   - [tmate](https://tmate.io/)
   - [jargon](https://github.com/muxumuxu/jargon)
+  - [Hub](https://github.com/github/hub)
+  - [Setup](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+
+Next alias `git` to use `hub`:
+```
+echo 'eval "$(hub alias -s)"' >> ~/.zshrc
+```
+And restart your shell.
 
 Configure your SSH Keys with GitHub:
 
-  - [Setup](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
-  - [Configure](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 
 ## Use [Middleman](https://middlemanapp.com/) for static websites
 
@@ -31,9 +37,8 @@ middleman init my_app -T git@github.com:muxumuxu/muxu-middleman-template.git
 git init
 git add .
 git commit -m "Initial Muxu.Muxu middleman app"
-
-# Create you repository on GitHub and add the remote
 ```
+
 
 This middleman template is configured with [Sass](http://sass-lang.com/) and [Slim](http://slim-lang.com/).
 
