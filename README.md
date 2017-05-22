@@ -18,7 +18,6 @@ Next, fire up your favorite terminal and install:
   - [tmate](https://tmate.io/)
   - [jargon](https://github.com/muxumuxu/jargon)
   - [Hub](https://github.com/github/hub)
-  - [Setup](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 
 Next alias `git` to use `hub`:
 ```
@@ -26,8 +25,7 @@ echo 'eval "$(hub alias -s)"' >> ~/.zshrc
 ```
 And restart your shell.
 
-Configure your SSH Keys with GitHub:
-
+Configure your SSH Keys with GitHub using this [link](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/).
 
 ## Use [Middleman](https://middlemanapp.com/) for static websites
 
@@ -37,6 +35,7 @@ middleman init my_app -T git@github.com:muxumuxu/muxu-middleman-template.git
 git init
 git add .
 git commit -m "Initial Muxu.Muxu middleman app"
+git create -p muxumuxu/my_app
 ```
 
 
@@ -49,12 +48,5 @@ First you need [Docker](https://docs.docker.com/docker-for-mac/install/) to be i
 ```
 gem install rails # Install the latest rails version
 rails new my_app -m https://raw.githubusercontent.com/muxumuxu/muxu-rails-template/master/template.rb
+git create -p muxumuxu/my_app
 ```
-
-## Deploy static websites with SSL
-
-We use GitHub pages to host static websites. You must publish your website inside the `/docs` folder.
-
-Create your GitHub repository and activate.
-
-With those tools you should be able to develop anything ;)
