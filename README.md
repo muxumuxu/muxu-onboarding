@@ -4,7 +4,7 @@ Here you can find resources to setup your machine as a developer.
 
 ## Prerequisites
 
-On OSX, first, you need to accept the developer license, to do that launch Xcode and follow the process.
+On OSX, first, you need to accept the developer licence, to do that launch Xcode and follow the process.
 
 Next, fire up your favorite terminal and install:
 
@@ -38,8 +38,20 @@ git commit -m "Initial Muxu.Muxu middleman app"
 git create -p muxumuxu/my_app
 ```
 
-
 This middleman template is configured with [Sass](http://sass-lang.com/) and [Slim](http://slim-lang.com/).
+
+#### Custom Domain + SSL with GitHub pages
+
+- Create your domain on [Cactomain](https://cactomain.co/register)
+- Configure *Named Servers* with 
+  - `ken.ns.cloudflare.com`
+  - `tegan.ns.cloudflare.com`
+- Add a new website on [Cloudfare](https://www.cloudflare.com/a/add-site) and wait to be correctly recognized
+- Once done, go to DNS section of Cloudfare and add two DNS records
+  - `A @ 192.30.252.153`
+  - `A @ 192.30.252.154`
+- Add custom domain to your GitHub repository
+- You should be OK
 
 ## Use [Rails](http://rubyonrails.org/) for complex websites
 
