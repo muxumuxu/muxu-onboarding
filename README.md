@@ -27,7 +27,12 @@ Configure your SSH Keys with GitHub:
 
 ```
 gem install middleman
-middleman init MY_PROJECT -T git@github.com:muxumuxu/muxu-middleman-template.git
+middleman init my_app -T git@github.com:muxumuxu/muxu-middleman-template.git
+git init
+git add .
+git commit -m "Initial Muxu.Muxu middleman app"
+
+# Create you repository on GitHub and add the remote
 ```
 
 This middleman template is configured with [Sass](http://sass-lang.com/) and [Slim](http://slim-lang.com/).
@@ -40,5 +45,11 @@ First you need [Docker](https://docs.docker.com/docker-for-mac/install/) to be i
 gem install rails # Install the latest rails version
 rails new my_app -m https://raw.githubusercontent.com/muxumuxu/muxu-rails-template/master/template.rb
 ```
+
+## Deploy static websites with SSL
+
+We use GitHub pages to host static websites. You must publish your website inside the `/docs` folder.
+
+Create your GitHub repository and activate.
 
 With those tools you should be able to develop anything ;)
