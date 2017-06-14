@@ -18,6 +18,8 @@ Next, fire up your favorite terminal and install:
   - [tmate](https://tmate.io/)
   - [jargon](https://github.com/muxumuxu/jargon)
   - [Hub](https://github.com/github/hub)
+  - [Heroku](https://devcenter.heroku.com/articles/heroku-cli)
+  - [Heroku Docker support](https://devcenter.heroku.com/articles/container-registry-and-runtime)
 
 Next alias `git` to use `hub`:
 ```
@@ -43,7 +45,7 @@ This middleman template is configured with [Sass](http://sass-lang.com/) and [Sl
 #### Custom Domain + SSL with GitHub pages
 
 - Create your domain on [Cactomain](https://cactomain.co/register)
-- Configure *Named Servers* with 
+- Configure *Named Servers* with
   - `ken.ns.cloudflare.com`
   - `tegan.ns.cloudflare.com`
 - Add a new website on [Cloudfare](https://www.cloudflare.com/a/add-site) and wait to be correctly recognized
