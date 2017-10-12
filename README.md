@@ -64,3 +64,12 @@ gem install rails # Install the latest rails version
 rails new my_app -m https://raw.githubusercontent.com/muxumuxu/muxu-rails-template/master/template.rb
 git create -p muxumuxu/my_app
 ```
+
+## Commit messages
+
+Your git commit must starts with:
+
+- `[+]` when you add something new, for example: `[+] Use the new stripe api`
+- `[*]` when you update something, for example: `[*] Update workding on renewal emails`
+- `[-]` when you fix something, for example: `[-] Fix renewal emails`
+
